@@ -69,6 +69,7 @@ test('should edit expense from firebase', (done) => {
     })
 })
 
+
 test('should setup add expense action object with provided values', () => {
   const action = addExpense(expenses[2]);
   expect(action).toEqual({
